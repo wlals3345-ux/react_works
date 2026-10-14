@@ -1,0 +1,22 @@
+.container{
+    width: 400px;
+    height: 300px;
+    border: 1px solid #000;
+    display: flex;
+    /* 수직정렬 */
+    align-items: center;
+    align-items: start;
+    align-items: end;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    gap: 16px; /*객체간 간격*/
+
+
+}
+.box{
+    width: 60px;
+    height: 60px;
+    background-color: lightcoral;
+
+}
+p{text-align: center;}

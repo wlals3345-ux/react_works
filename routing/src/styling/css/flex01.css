@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    flex-direction: row; /* 수평 배치*/
+    flex-direction: column; /* 수직 배치*/
+    gap: 16px; /*객체간 간격*/
+
+
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+
+}
